@@ -1,0 +1,25 @@
+{
+  "name": "javascript-tutoring-website",
+  "version": "1.0.0",
+  "description": "Javascript Tutoring Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server src/index.html && npm run compile:sass",
+    "compile:sass": "node-sass src/sass/main.scss css/styles.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pchertude34/javascript-tutoring-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pchertude34/javascript-tutoring-website/issues"
+  },
+  "homepage": "https://github.com/pchertude34/javascript-tutoring-website#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1"
+  }
+}
