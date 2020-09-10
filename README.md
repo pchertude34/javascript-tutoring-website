@@ -32,7 +32,7 @@ Our _default_ branch is the _develop_ branch. The _develop_ branch contains the 
 Please try your best to only work on one feature per branch. This will help tremendously with code reviews. The more often you commit, the better as well. Please also write meaningful commit messages. Committing can be done with the following steps.
 
 1. `git add -u` (stage all changed files for commiting. This _only_ stages files that have already been commited at some point in time. If you need to add new files that you have just created, use the command `git add ./path/to/file`)
-2. `git commit -m "[your commit message]"` (commit the file changes with a message).
+2. `git commit -m "[your commit message]"` (commit the file changes with a message, make sure to include the quotes!)
 3. `git push origin [new-branch-name]` (replace "new-branch-name" with the name of the branch you are working on. This will "push" your branch up to github for others to see!)
 
 ### Pull Requests
